@@ -6,7 +6,7 @@ class Cronometro {
     this.milisegundos = milisegundos;
   }
   ajusteTiempo() {
-    let Index = document.querySelector("h2");
+    let Index = document.querySelector("#cronometro");
     let horasIndex = this.horas;
     let minutosIndex = this.minutos;
     let segundosIndex = this.segundos;
